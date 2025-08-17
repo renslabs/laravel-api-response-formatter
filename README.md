@@ -125,11 +125,11 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email renslabsa@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email okriizaa@gmail.com instead of using the issue tracker.
 
 ## Credits
 
-This package was created by [Rendi Okriza](https://github.com/renslabs)
+This package was created by [RensLabs](https://github.com/renslabs)
 
 - [All Contributors](../../contributors)
 

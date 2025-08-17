@@ -1,0 +1,55 @@
+{
+  "name": "renslabs/laravel-api-response-formatter",
+  "description": "a simple package Format API responses throughout your Laravel application",
+  "keywords": [
+    "renslabs",
+    "api-response-formatter",
+    "laravel api response formatter",
+    "laravel api response formatter helpers"
+  ],
+  "homepage": "https://github.com/renslabs/laravel-api-response-formatter",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "RensLabs",
+      "email": "renslabsa@gmail.com",
+      "homepage": "https://renslabs.my.id",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.1|^8.2|^8.3",
+    "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0|^9.0| ^10.0",
+    "phpunit/phpunit": "^7.0|^8.0|^9.0|^9.5|^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "renslabs\\ApiResponseFormatter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "renslabs\\ApiResponseFormatter\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "renslabs\\ApiResponseFormatter\\ApiResponseServiceProvider"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

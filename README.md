@@ -1,7 +1,7 @@
-![](https://banners.beyondco.de/Laravel%20API%20Response%20Formatter.png?theme=light&packageManager=composer+require&packageName=okriiza%2Flaravel-api-response-formatter&pattern=plus&style=style_1&description=generate+consistent%2C+well-structured+JSON+responses+in+your+Laravel+Application.&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
+![](https://banners.beyondco.de/Laravel%20API%20Response%20Formatter.png?theme=light&packageManager=composer+require&packageName=renslabs%2Flaravel-api-response-formatter&pattern=architect&style=style_1&description=Generate+Consistent%2C+Well-structured+JSON+Responses+In+Your+Laravel+Application.&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/okriiza/laravel-api-response-formatter.svg?style=flat-square)](https://packagist.org/packages/okriiza/laravel-api-response-formatter)
-[![Total Downloads](https://img.shields.io/packagist/dt/okriiza/laravel-api-response-formatter.svg?style=flat-square)](https://packagist.org/packages/okriiza/laravel-api-response-formatter)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/renslabs/laravel-api-response-formatter.svg?style=flat-square)](https://packagist.org/packages/renslabs/laravel-api-response-formatter)
+[![Total Downloads](https://img.shields.io/packagist/dt/renslabs/laravel-api-response-formatter.svg?style=flat-square)](https://packagist.org/packages/renslabs/laravel-api-response-formatter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 # Laravel API Response Formatter
@@ -18,7 +18,7 @@
 You can install the package via composer:
 
 ```bash
-composer require okriiza/laravel-api-response-formatter
+composer require renslabs/laravel-api-response-formatter
 ```
 
 The package will automatically register itself.
@@ -55,7 +55,7 @@ Here's an example of how you can use the `Laravel API Response Formatter` class 
 ```php
 <?php
 
-use Okriiza\ApiResponseFormatter\ApiResponse;
+use renslabs\ApiResponseFormatter\ApiResponse;
 
 class UserController extends Controller
 {
@@ -125,11 +125,11 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email okriizaa@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email renslabsa@gmail.com instead of using the issue tracker.
 
 ## Credits
 
-This package was created by [Rendi Okriza](https://github.com/okriiza)
+This package was created by [Rendi Okriza](https://github.com/renslabs)
 
 - [All Contributors](../../contributors)
 
